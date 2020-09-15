@@ -1,0 +1,51 @@
+@import './layout/Variables.scss';
+@import './layout/Colors.scss';
+@import './layout/Breakpoints.scss';
+@import './layout/Grid.scss';
+@import './layout/FullWidth.scss';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: $base_font;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main#app {
+  margin: 0 auto;
+  max-width: 1340px;
+  padding: 0 10px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-right:before {
+  content: " ";
+  display: table;
+}
+
+.pull-right:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+@media all and (min-widh: 769px) {
+  main#app {
+    margin: 0 20px;
+  }
+}

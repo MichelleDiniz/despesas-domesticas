@@ -1,0 +1,20 @@
+.full-width {
+  position: relative;
+  background-color: $white;
+
+  @media all and (max-width: $max-tablet) {
+    overflow-y: auto;
+  }
+
+  @media all and (min-width: $min-tablet) {
+    height: auto;
+  }
+
+  &__content {
+    padding: 10px;
+
+    @media all and (min-width: $min-tablet) {
+      padding: 20px;
+    }
+  }
+}

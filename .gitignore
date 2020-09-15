@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# Config firebase
+/src/config/dev.js
+/src/config/prod.js
+
 # testing
 /coverage
 

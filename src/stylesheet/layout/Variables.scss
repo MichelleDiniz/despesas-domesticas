@@ -1,0 +1,48 @@
+/*******************************************************************************
+*
+*  core/variables
+*
+*******************************************************************************/
+
+/* COMMON
+-------------- */
+$base_font: 13px;
+$app_font: 'Roboto', sans-serif;
+
+/* DASHBOARD
+-------------- */
+$dashboard_widget_margin: 10px;
+
+/* MEDIA
+-------------- */
+$max-mobile: 767px;
+$min-tablet: 768px;
+$max-tablet: 1023px;
+$min-desktop: 1024px;
+$max-desktop: 1199px;
+$min-md-desktop: 1200px;
+$min-lg-desktop: 1400px;
+
+/* MEDIA SIZES
+--------------- */
+$mobile-header-height: 40px;
+$tablet-header-height: 50px;
+$lg-desktop-header-height: 50px;
+
+/* GRID SYSTEM VARIABLES
+------------------------- */
+$grid-columns:      12 !default;
+$grid-gutter-width: 30px !default;
+
+$grid-breakpoints: (
+  mobile: 0,
+  tablet: 768px,
+  desktop: 992px,
+  md-desktop: 1200px,
+  lg-desktop: 1400px
+) !default;
+
+$container-max-widths: (
+  desktop: 960px,
+  md-desktop: 85%
+) !default;

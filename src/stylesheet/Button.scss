@@ -1,0 +1,71 @@
+@import './layout/Colors.scss';
+
+.btn,
+.btn-primary,
+.btn-warning,
+.btn-danger,
+.btn-success,
+.btn-disabled {
+  border: 0;
+  padding: 8px 15px;
+  color: $white;
+  font-style: normal;
+  font-size: 1rem;
+  border-radius: 3px;
+  line-height: 1;
+  transition: background-color .2s;
+}
+
+.btn {
+  background-color: $btn-bg;
+
+  &:hover {
+    background-color: $btn-bg-hover;
+  }
+}
+
+.btn-primary {
+  background-color:  $btn-bg-primary;
+
+  &:hover {
+    background-color:  $btn-bg-primary-hover;
+  }
+}
+
+.btn-warning {
+  background-color: $btn-bg-warning;
+
+  &:hover {
+    background-color: btn-bg-warning-hover;
+  }
+}
+
+.btn-danger {
+  background-color: $btn-bg-danger;
+
+  &:hover{
+    background-color: $btn-bg-danger-hover;
+  }
+}
+
+.btn-success {
+  background-color: $btn-bg-success;
+
+  &:hover {
+    background-color: $btn-bg-success-hover;
+  }
+}
+
+.btn-disabled {
+  background-color: $btn-bg-disabled;
+  color: #666;
+
+  &:hover {
+    background-color: $btn-bg-disabled-hover;
+  }
+}
+
+.btn-small {
+  padding: 3px 8px;
+  font-size: .85rem;
+}

@@ -1,0 +1,80 @@
+/* COLORS PALLETTE
+ ------------------- */
+ $black          : #000;
+ $white          : #fff;
+ $gray-lightness : #efefef;
+ $gray-light     : #afb8b9;
+ $gray           : #999999;
+ $gray-dark      : #4b4b4b;
+ $gray-darkness  : #212121;
+ 
+ $green          : #039831;
+ $soft-green     : #74ad76;
+ $baby-green     : #c5e4da;
+ $red            : #ca1234;
+ $redlight       : #f90000;
+ $baby-pink      : #fff4f4;
+ $orange         : #ff9800;
+ $baby-orange    : #fff2d9;
+ $yellow         : #D7DF01;
+ $baby-yellow    : #fff8bc;
+ $blue           : #8AA4BE;
+ $baby-blue      : #dce7ef;
+ $purple         : #c320ec;
+ $brown          : #4d3539;
+ $blue           : #2d6ee7;
+ $blue-primary   : #2d73af;
+ $blue-dark      : #235e90;
+ 
+ /* TRANSPARENT COLORS
+  -------------------- */
+ $black-thirty    : rgba($black, .3);
+ 
+ /* BACKGROUNDS
+  --------------- */
+ $background-gray     : $gray;
+ $component-background: $gray-light;
+ 
+ /* BUTTONS
+  ---------------- */
+ $btn-bg                : $gray;
+ $btn-bg-hover          : darken($gray, 4%);
+ $btn-bg-disabled       : $gray-light;
+ $btn-bg-disabled-hover : darken($gray-light, 4%);
+ $btn-bg-primary        : $blue-primary;
+ $btn-bg-primary-hover  : darken($blue-dark, 4%);
+ $btn-bg-warning        : $orange;
+ $btn-bg-warning-hover  : darken($orange, 4%);
+ $btn-bg-success        : $green;
+ $btn-bg-success-hover  : darken($green, 4%);
+ $btn-bg-danger         : $red;
+ $btn-bg-danger-hover   : darken($red, 4%);
+ 
+ /* TEXTS
+ ---------------- */
+ $title               : $gray-dark;
+ 
+ /* LINKS
+ ---------------- */
+ $active-link-color: $gray-dark;
+ $common-link-color: $blue-primary;
+ 
+ /* ALERTS 
+  --------------- */
+ $alert-error-color  : $red;
+ $alert-error-bg     : $baby-pink;
+ 
+ $alert-success-color: $green;
+ $alert-success-bg   : $baby-green;
+ 
+ $alert-warning-color: darken($orange, 8%);;
+ $alert-warning-bg   : $baby-orange;
+ 
+//  $alert-info-color   : $blue-ocean;
+//  $alert-info-bg      : $baby-blue;
+ 
+ /* OUTLINE
+ --------------- */
+ $outline-color      : $blue-primary;
+ $outline-error-color: $red;
+ 
