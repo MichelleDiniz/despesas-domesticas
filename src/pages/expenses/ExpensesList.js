@@ -4,10 +4,10 @@ import _ from "lodash";
 import { addExpense, fetchExpenses, removeExpense } from "../../actions";
 import ExpenseListItem from "./ExpenseListItem";
 import FormExpense from "./Form";
-import "../../stylesheet/Table.scss";
-import "../../stylesheet/Form.scss";
-import "../../stylesheet/Button.scss";
-import "../../stylesheet/ColorBox.scss";
+import "../../assets/stylesheet/Table.scss";
+import "../../assets/stylesheet/Form.scss";
+import "../../assets/stylesheet/Button.scss";
+import "../../assets/stylesheet/ColorBox.scss";
 import "./Expenses.scss";
 
 class ExpensesList extends Component {

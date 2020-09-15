@@ -3,9 +3,9 @@ import { connect } from "react-redux";
 import { addExpense, fetchExpenses, removeExpense } from "../../actions";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faCar, faMobileAlt, faUtensils, faCocktail, faUserTag } from '@fortawesome/free-solid-svg-icons';
-import "../../stylesheet/Form.scss";
-import "../../stylesheet/Button.scss";
-import "../../stylesheet/ColorBox.scss";
+import "../../assets/stylesheet/Form.scss";
+import "../../assets/stylesheet/Button.scss";
+import "../../assets/stylesheet/ColorBox.scss";
 import "./Expenses.scss";
 
 class ExpensesForm extends Component {

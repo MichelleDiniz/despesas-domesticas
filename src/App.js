@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import ExpensesList from "./pages/expenses/ExpensesList";
-import "./stylesheet/Base.scss";
+import "./Assets/stylesheet/Base.scss";
 
 class App extends Component {
   render() {

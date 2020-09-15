@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import _ from "lodash";
-import "../../stylesheet/Table.css";
-import "../../stylesheet/Button.css";
-import "../../stylesheet/ColorBox.css";
+import "../../assets/stylesheet/Table.css";
+import "../../assets/stylesheet/Button.css";
+import "../../assets/stylesheet/ColorBox.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faCar, faMobileAlt, faUtensils, faCocktail, faUserTag } from '@fortawesome/free-solid-svg-icons';
 
